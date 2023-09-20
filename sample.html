@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut with flavours</title>
+    <style>
+        .donut{
+            width:200px;
+            height: 200px;
+            border: 20px solid transparent;
+            border-bottom-color: #f06;
+            border-radius: 50%;
+            position: relative;
+        }
+        .flavour{
+            width: 50%;
+            height: 100%;
+            position:absolute;
+            top: 0;
+            left: 0;
+            background-color: #ff9900;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+        .flavour:nth-child(even){
+         background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="donut">
+        <div class="flavour"></div>
+        <div class="flavour"></div>
+        <div class="flavour"></div>
+    </div>
+</body>
+</html>

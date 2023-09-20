@@ -1,0 +1,15 @@
+body{
+    background-image: url(green.jpg);
+    /* opacity:0.4 ; */
+}
+/* img{
+    opacity:0.4 ;
+} */
+.head{
+    font-size: 50px;
+    color: aqua;
+    margin-top: 40vh;
+}
+.img{
+    margin-top: 25vh;
+}

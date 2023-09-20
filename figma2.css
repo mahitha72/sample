@@ -1,0 +1,45 @@
+/* *{
+    border: solid 2px green;
+} */
+.image{
+    font-size: 5vh;
+}
+.but{
+    background-color: yellow;
+    font-size: 5vh;
+}
+.butt{
+    font-size: 5vh;
+    border-radius: 6cm;
+}
+.heading{
+    margin-left: 20vh;
+    font-size: 5vh;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+/* .colo{
+    margin-bottom: 30vh;
+} */
+.mat1,.mat2,.mat3{
+    font-size: 2vh;
+    margin-right: 10vh;
+    display: flex;
+    flex-direction: row;
+
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.img{
+    margin-right: 20vh;
+    margin-bottom: 80vh;
+}
+.yogaimg{
+    margin: 10px 30px;
+}
+.content{
+    margin-top: 50px;
+    font-size: 20px;
+    
+}

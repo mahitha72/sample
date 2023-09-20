@@ -1,0 +1,12 @@
+.img-1 {
+    display: flex;
+    opacity: 0.9;
+    width: 100%;
+    flex-wrap: wrap;
+    flex: content;
+}
+.img-1 img{
+    margin: 10px;
+    width: calc(100% - 80% - 10px);
+    height: 200px;
+}

@@ -1,0 +1,56 @@
+ul
+{
+    list-style-type:none;
+    overflow: hidden;
+    padding: left 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    display:flex;
+    justify-content:space-around;
+}
+body{
+    background-image:url(veg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+li
+{
+    float: left;
+}
+li a{
+    display: block;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    text-decoration: none;
+}
+h1{
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+b{
+    font-size: 40px;
+}
+p{
+    color: bisque;
+}
+.button{
+    background-color:orangered;
+    text-align: center;
+    color: white;
+    padding: 11px 15px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color:gainsboro;
+}
+button img{
+width: 0.7cm;
+height: 0.7cm;
+border-radius: 5px;
+}
